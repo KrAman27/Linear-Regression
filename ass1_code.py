@@ -35,9 +35,9 @@ y_pred = regressor.predict(X_test)
 plt.scatter(X_train,y_train,color = 'red')
 plt.scatter(X_test,y_pred,color = 'black')
 plt.plot(X_train,regressor.predict(X_train),color='blue')
-plt.title('y_prediction')
-plt.xlabel('X')
-plt.ylabel('y')
+plt.title('Devoted time Vs Performance')
+plt.xlabel('Time Devoted')
+plt.ylabel('Level of Performance')
 plt.show()
 
 
